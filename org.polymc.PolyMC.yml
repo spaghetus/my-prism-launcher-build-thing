@@ -1,4 +1,4 @@
-app-id: org.polymc.PolyMC
+app-id: org.prismlauncher.PrismLauncher
 runtime: org.kde.Platform
 runtime-version: "5.15-21.08"
 sdk: org.kde.Sdk
@@ -40,7 +40,7 @@ modules:
         JAVA_COMPILER: /usr/lib/sdk/openjdk17/jvm/openjdk-17/bin/javac
     sources:
       - type: git
-        url: https://github.com/PolyMC/PolyMC.git
+        url: https://github.com/PrismLauncher/PrismLauncher.git
         tag: 1.4.2
       - type: patch
         path: 0001-Fix-meta.patch
